@@ -22,6 +22,7 @@ public class MenuUIHandler : MonoBehaviour
 
     public void StartNew()
     {
+        Debug.Log("Start was called");
         SceneManager.LoadScene(1);
     }
     

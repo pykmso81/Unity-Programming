@@ -74,6 +74,7 @@ public class MainUIHandler : MonoBehaviour
 
     public void BackToMenu()
     {
+        Debug.Log("Back to menu");
         SceneManager.LoadScene(0);
     }
 }
