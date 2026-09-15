@@ -41,6 +41,7 @@ public class ProductivityUnit : Unit
             {
                 m_CurrentPile = pile;
                 m_CurrentPile.ProductionSpeed *= ProductivityMultiplier;
+                
             }
         }
     }
